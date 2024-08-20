@@ -80,11 +80,7 @@ const QuizApp = () => {
                 <div>
                   {questions[currentQuestion].incorrect_answers.map(
                     (option, index) => (
-                      <button
-                        className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
-                        key={index}
-                        onClick={() => handleClick(option)}
-                      >
+                      <button key={index} onClick={() => handleClick(option)}>
                         {option}
                       </button>
                     )
