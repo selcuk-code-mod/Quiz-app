@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.picture {
+  background: url("../src/assets/quız.webp");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}
